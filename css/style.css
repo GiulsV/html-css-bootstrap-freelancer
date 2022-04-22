@@ -45,3 +45,11 @@
         overflow: hidden;
     }
 
+
+    /* About */
+    .ms_button_download {
+        color: rgb(255,255,255);
+        border-color: rgb(255,255,255);
+        background-color: transparent;
+    }
+
