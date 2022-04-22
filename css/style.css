@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
 /* bg color */
 
 .bg_darkblue{
@@ -11,6 +16,9 @@
 }
 .bg_aqua{
     background-color: #1abc9c;
+}
+.bg_footer_top{
+    background-color: #3a546d;
 }
 
 /* Header */
@@ -76,4 +84,16 @@
 
 /* Footer */
     /* Info */
+    .ms_footer_top .text {
+        margin-bottom: 20px;
+    }
+    .ms_social_icon i {
+        width: 50px;
+        padding: 15px;
+        margin-left: 5px;
+        font-size: 20px;
+        border: 1px solid rgb(255,255,255);
+        border-radius: 50%;
+        color: white;
+    }
 
