@@ -38,7 +38,7 @@ a {
     margin: 0 10px 10px 0;
     
 }
-.ms_text_dark {
+.ms_star_dark {
     background-color: #2c3e50;
 }
 
@@ -58,7 +58,9 @@ a {
 .ms_text_white {
     color: rgb(255,255,255);
 }
-
+.ms_text_dark {
+    color: #2c3e50;
+}
 
 
 
@@ -109,13 +111,24 @@ a {
 
 
     /* Contact */
-    form > input{
-        padding: 10px 0 30px 0;
-        border: none;
-        border-bottom: 1px solid black;
+    .row .col-xs-12 form > input{
+        padding: 10px 0 20px 0;
+        border: transparent;
+        border-radius: 0;
+        border-bottom: 1px solid #cccccc;
         box-shadow: none;
         font-size: 20px;
-        color: rgb(58, 84, 109);
+        background-color: transparent;
+    }
+
+    .row .col-xs-12 form > textarea{
+        padding: 10px 0 20px 0;
+        border: transparent;
+        border-radius: 0;
+        border-bottom: 1px solid #cccccc;
+        box-shadow: none;
+        font-size: 20px;
+        background-color: transparent;
     }
 
     .ms_button_send{
