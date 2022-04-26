@@ -14,10 +14,18 @@ a {
     margin: 0 10px;
 }
 
+.fa-bars{
+    color:gray
+}
+
 /* padding */
 .ms_padding_standard {
     padding-top: 50px;
     padding-bottom: 30px;
+}
+
+.ms_padding_bottom{
+    padding-bottom: 50px;
 }
 
 .ms_padding_minor{

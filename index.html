@@ -16,22 +16,26 @@
 
    <header>
        <!-- navbar -->
-       <nav class="navbar">
-           <div class="ms_top_header container-fluid bg_darkblue ms_text_white text-uppercase">
-               <div class="container">
-                   <div class="row">
-                       <div class="col">
-                           <a href="#" class="fw-bold fs-3 text-uppercase">start bootstrap</a>
-                       </div>
-                       <div class="col text-end">
-                           <a href="#">Portfolio</a>
-                           <a href="#">About</a>
-                           <a href="#">Contact</a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </nav>
+       <nav class="navbar navbar-expand-lg bg_darkblue text-uppercase text-white">
+           <div class="container ms_top_header">
+               <a class="navbar-brand fw-bold fs-3 text-white" href="#">Start Bootstrap</a>
+               <button class="navbar-toggler text-white rounded" type="button" data-mdb-toggle="collapse"
+               data-mdb-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+               aria-expanded="false" aria-label="Toggle navigation">
+                   <i class="fas fa-bars px-2 py-1 border rounded"></i>
+                </button>
+                
+                <div class="collapse navbar-collapse"  >
+                    <ul class="navbar-nav ms-auto " id="navbarToggleExternalContent">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-white " href="#portfolio ">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-white" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-white" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
        <!-- jumbotron-->
        <div class="ms_jumbotron bg_aqua ms_text_white text-uppercase ms_padding_standard">
            <div class="wrapper">
@@ -39,14 +43,14 @@
                    <div class="row">
                        <div class="col-sx-12 text-center text-uppercase">
                            <img src="img/avatar.svg" alt="avatar"  id="ms_avatar">
-                            <h1 class=" fw-bold fs-1">start bootstrap</h1>
+                            <h1 class=" fw-bold display-3">start bootstrap</h1>
                             <div class="ms_padding_minor">
                                 <div  class="ms_star_bar"></div>
                                 <i class="fas fa-star"></i>
                                 <div  class="ms_star_bar"></div>
                             </div>
 
-                            <h3>graphic artist-web designer-illustrator</h3>
+                            <h3 class="ms_padding_bottom">graphic artist - web designer - illustrator</h3>
                        </div>
                    </div>
                </div>
@@ -63,7 +67,7 @@
                <!-- titolo -->
                <div class="row">
                    <div class="col-xs-12">
-                       <h2 class="text-uppercase fw-bold fs-1">Portfolio</h2>
+                       <h2 class="text-uppercase fw-bold display-4">Portfolio</h2>
                        <div class="ms_padding_minor">
                             <div  class="ms_star_bar ms_star_dark"></div>
                             <i class="fas fa-star"></i>
@@ -115,7 +119,7 @@
                <div class="container-fluid">
                    <div class="row">
                        <div class="col-xs-12 text-uppercase text-center">
-                           <h2 class="fw-bold fs-1">About</h2>
+                           <h2 class="fw-bold display-4">About</h2>
                            <div class="ms_padding_minor">
                                 <div  class="ms_star_bar"></div>
                                 <i class="fas fa-star"></i>
@@ -154,7 +158,7 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col-xs-12">
-                <h2 class="text-uppercase text-center fw-bold fs-1">Contact me</h2>
+                <h2 class="text-uppercase text-center fw-bold display-4">Contact me</h2>
                 <div class="text-center ms_padding_minor">
                     <div  class="ms_star_bar ms_star_dark"></div>
                     <i class="fas fa-star"></i>
