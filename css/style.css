@@ -20,31 +20,28 @@ a {
 
 /* padding */
 .ms_padding_standard {
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 70px;
 }
 
-.ms_padding_bottom{
-    padding-bottom: 50px;
-}
-
-.ms_padding_minor{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 
 /* Star */
+.ms_divider_custom{
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
 .ms_star_bar {
-    content: '';
-    display: inline-block;
-    width: 150px;
-    height: 3px;
-    line-height: 25px;
-    border-radius: 3px;
-    vertical-align: middle;
+    width: 100%;
+    max-width: 12rem;
+    height: 0.25rem;
+    border-radius: 1rem;
     background-color: white;
-    margin: 0 10px 10px 0;
-    
 }
 .ms_star_dark {
     background-color: #2c3e50;
@@ -81,8 +78,8 @@ a {
 
     .ms_top_header{
         width: 100%;
-        height: 80px;
-        line-height: 80px;
+        height: 90px;
+        line-height: 90px;
     }
 
     /* Jumbotron */
