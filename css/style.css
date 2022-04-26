@@ -72,14 +72,9 @@ a {
 
 /* Header */
     /* Navbar */
-    .navbar{
-        padding: 0;
-    }
-
-    .ms_top_header{
-        width: 100%;
-        height: 90px;
-        line-height: 90px;
+    #mainNav {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
     /* Jumbotron */
@@ -148,15 +143,24 @@ a {
 
 /* Footer */
     /* Info */
-    .ms_footer_top .text {
-        margin-bottom: 20px;
+    .ms_footer_top{
+        padding-top: 20px;
+        padding-bottom: 10px;
     }
+    
     .ms_social_icon i {
-        width: 50px;
-        padding: 15px;
+        width: 40px;
+        padding: 10px;
         margin-left: 5px;
-        font-size: 20px;
+        font-size: 15px;
         border: 1px solid rgb(255,255,255);
         border-radius: 50%;
     }
+
+    /* Copyright */
+    .ms_footer_bottom{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
 
